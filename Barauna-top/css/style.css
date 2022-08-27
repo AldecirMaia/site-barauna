@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color:#dff8fc;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: rgb(168, 219, 249);
+    padding: 10px 2% 30px 2%;
+    height: 100px;
+}
+.container-nav{
+    max-width: 1280px;
+    padding: 0 auto;
+}
+
+header nav{
+    float: left;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav li{
+    float: left;
+    padding-left: 20px;
+}
+header li a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    background-image: url(/imagens/menu-mobile.png);
+    background-size: 100% 100%;
+}
+.mobile-menu ul{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    list-style-type: none;
+    text-align: center;
+}
+.mobile-menu ul li{ 
+    padding: 8px 10px;
+    transition: 0.5s;
+    border-bottom: 1px solid black;
+}
+.mobile-menu ul li:hover{
+    background-color: rgb(237, 223, 223);
+}
+.mobile-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.logo-1{
+    float: left;
+    width: 160px;
+    height: 50px;
+    background-image: url(../imagens/imagens/logobarauna1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-2{
+    float: right;
+    width: 160px;
+    height: 70px;
+    margin-top: -15px;
+    background-image: url(../imagens/imagens/logoBarauna2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section .cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+.bg{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/Igreja_Matriz5.png);
+}
+.form-container{
+    float: right;
+    width: 400px;
+    margin-right: 40px;
+    height: 110%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 2px 2px 1px 1px rgb(120, 118, 118);
+    top: -5%;
+    background-color: rgba(151, 179, 207, 0.8);
+}
+.form-container h2{
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 15px;
+    color: black;
+    font-size: small 12px;
+    background-color: rgb(135, 154, 212); 
+}
+.form-container form{
+    margin-top: 8px;
+    padding: 20px;
+}
+.form-container form p{
+    font-size: 15px;
+    color: #060606;
+}
+.form-waper:not(:first-child){
+    margin-top: 5px;
+}
+.form-container form input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+.form-container form input[type=email]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding: 10px;
+}
+.form-container form input[type=submit]{
+    background-color: #033c50;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+   
+}
+section.informacao{
+    padding: 50px 0;
+    width: 100%;
+    top: -50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+   
+    
+}
+section.informacao .container{
+    background-color: #1097b6;
+    padding: 50px 0;
+    top: -50px;
+    position: relative;
+    
+}
+section.informacao h2{
+    display: inline-block;
+    color: white;
+    width: 96%;
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.flecha{
+    position: relative;
+    top: -70px;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    background-image:url(../imagens/arrow.png);
+    background-size: 100% 100%;
+    
+}
+section.mosaico{
+    position: relative;
+    top: -200px;
+    width: 100%;
+}
+.flex-mosaico{
+    display: flex;
+    height: 100%;
+    min-height: 400px;
+  
+}
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+}
+.item-2-mosaico{
+    background-color:  #472562;
+    width: 40%;
+    padding: 60px 40px;
+    text-align: center;
+}
+.item-2-mosaico p{
+    color: white;
+    margin-top: 110px;
+    font-size: 18px;
+}
+.item-2-mosaico a{
+    font-size: large;
+    text-decoration: none;
+    color:white;
+    
+}
+footer{
+    position: relative;
+    top: -200px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+footer img{
+    
+    width: 15%;
+}
+@media screen and (max-width: 900px) {
+    header{
+        text-align: center;
+        height: 150px;
+    }
+    .logo-1{
+        margin-top: 10px;
+        display: inline-block;
+        float: none;
+    }
+    .logo-2{
+        display: none;
+    }
+    .bg{
+       text-align: center;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: block;
+        margin-top: -70px;
+    }
+    .form-container{
+        width: 96%;
+        max-width: 400px;
+        float: none;
+        position: static;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+    }
+    .informacao{
+        padding: 50px 0;
+        margin-top: 50px;
+        display: inline-block;
+        
+    }
+   .container-nav{
+       display: inline-block;
+       text-align: center;
+   }
+   .mosaico{
+        min-height: 200px;
+   }
+}
+@media screen and (max-width: 768px){
+
+	.flex-mosaico{
+		display: block;
+	}
+
+	.item-1-mosaico{
+		padding-top:80%;
+		width: 100%;
+        border: 1px solid white;
+        
+	}
+
+	.item-2-mosaico{
+		text-align: center;
+		width: 100%;
+        border: 1px solid white;
+	}
+    .item-2-mosaico p{
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+   
+    
+}

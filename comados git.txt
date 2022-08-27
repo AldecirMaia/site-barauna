@@ -1,4 +1,20 @@
-git init
+git init //inicializar as funções git
 
-git status
+git status // ver o status da pasta
+
+git add "nomedo arquivo" //adicionar o projeto 
+
+git status //verificar se deu certo
+
+git add . // adicionar varios arquivos
+
+git commit -m /criando a primeira versão
+
+git push //enviar para a nunvem
+
+git remote add origin (link do github) //enviando para repositorio
+
+git push // envio, mas vai aparecer pedindo o bransh
+
+git push --set-upstream origin master //aprovação do envio
 

@@ -18,3 +18,7 @@ git push // envio, mas vai aparecer pedindo o bransh
 
 git push --set-upstream origin master //aprovação do envio
 
+
+git reflog //ver o historico
+
+git --hard //voce pode navegar entre as versões

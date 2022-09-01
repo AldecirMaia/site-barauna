@@ -234,6 +234,8 @@ footer{
     padding: 20px 0;
     width: 100%;
     text-align: center;
+    background: #b2dfdb;
+    font-weight: lighter;
 }
 footer img{
     
